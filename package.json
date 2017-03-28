@@ -1,0 +1,19 @@
+{
+  "name": "d3rwan.agile-api",
+  "version": "1.0.0",
+  "description": "Agile API : Enable/Disable API on the fly, Adding response delay",
+  "scripts": {
+    "start": "./node_modules/babel-cli/bin/babel-node.js ./src/app.js"
+  },
+  "author": "d3rwan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.17.1",
+    "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}

@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  agile-api:
+    build: .
+    container_name: agile-api
+    ports:
+      - "3000:3000"
